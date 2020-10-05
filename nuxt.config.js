@@ -12,6 +12,13 @@ export default {
    */
   target: 'static',
   /*
+   ** Deploy to gh-pages
+   ** See https://nuxtjs.org/faq/github-pages#command-line-deployment
+   */
+  router: {
+    base: '/start-nuxt-tailwind/',
+  },
+  /*
    ** Headers of the page
    ** See https://nuxtjs.org/api/configuration-head
    */
