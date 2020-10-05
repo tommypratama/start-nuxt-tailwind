@@ -2,23 +2,25 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">
-        start-nuxt-tailwind
+      <h1 class="text-5xl font-bold py-10 bg-gradient-to-r text-transparent bg-clip-text from-green-600 via-green-800 to-green-700">
+        Nuxt Tailwindcss
       </h1>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href="https://github.com/tommypratama/start-nuxt-tailwind/generate"
           target="_blank"
           rel="noopener noreferrer"
-          class="button--green"
+          class="inline-block bg-gray-900 text-white px-6 py-2 border border-transparent rounded hover:bg-gray-800 shadow-md transition-colors duration-150 ease-in"
+          type="button"
         >
-          Documentation
+          Generate New Repo
         </a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://github.com/tommypratama/start-nuxt-tailwind"
           target="_blank"
           rel="noopener noreferrer"
-          class="button--grey"
+          class="ml-3 inline-block text-gray-900 border border-gray-900 px-6 py-2 rounded hover:bg-gray-800 hover:text-white transition-colors duration-200 ease-in"
+          type="button"
         >
           GitHub
         </a>
@@ -32,47 +34,7 @@ export default {}
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
 .container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+  @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 </style>
