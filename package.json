@@ -1,0 +1,34 @@
+{
+  "name": "start-nuxt-tailwind",
+  "version": "1.0.0",
+  "author": "Tommy Pratama <tommyhpratama@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "tailwindcss",
+    "vue",
+    "nuxt",
+    "boilerplate"
+  ],
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:style": "stylelint **/*.{vue,css} --ignore-path .gitignore",
+    "lint": "yarn lint:style"
+  },
+  "dependencies": {
+    "nuxt": "^2.14.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/stylelint-module": "^4.0.0",
+    "@nuxtjs/tailwindcss": "^2.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "stylelint": "^13.6.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^20.0.0"
+  }
+}
