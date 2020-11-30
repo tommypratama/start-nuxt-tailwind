@@ -16,7 +16,7 @@ export default {
    ** See https://nuxtjs.org/faq/github-pages#command-line-deployment
    */
   router: {
-    base: '/start-nuxt-tailwind/',
+    base: process.env.NODE_ENV !== 'production' ? '/' : '/start-nuxt-tailwind/',
   },
   /*
    ** Headers of the page
